@@ -152,13 +152,21 @@ col_idx : column index for Subject used to pull it to the front of the Data Tabl
 ##Misc
 
 The code is well documented.  The basic flow is as follows:
+
 1) Download Project Data
+
 2) UnZip Project Data
+
 3) Load and Merge Training and Test Data set
+
 4) Merge Training Data Set with Test Data Set
+
 5) Trim Data Set to include only std() and mean() columns
+
 6) Apply Activity labels to activity factor
+
 7) Cleanup column names and make them readable
+
 8) Average final data set by Subject by Activity
 
-Each Step is documented in the code…
+Each Step is documented in the codeâ€¦
